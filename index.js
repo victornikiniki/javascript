@@ -4,7 +4,7 @@
 //window.alert(`This is an alert!`);
 //window.alert(`I like pizza!`)
 
-document.getElementById("myH1").textContent = `Hello`;
+/* document.getElementById("myH1").textContent = `Hello`;
 document.getElementById("myP").textContent = `I like Pizza!`;
 
 let age = 27;
@@ -36,8 +36,33 @@ console.log(`Enrolled: ${isStudent}`);
 
 document.getElementById("p1").textContent = `Your name is ${fullName}`;
 document.getElementById("p2").textContent = `You are ${age} years old`;
-document.getElementById("p3").textContent = `Enrolled: ${isStudent}`;
+document.getElementById("p3").textContent = `Enrolled: ${isStudent}`; */
 
 //comment
 
 /* comments */
+
+let students = 30;
+
+//students = students + 1; 
+//students = students - 1;
+//students = students * 2;
+//students = students / 2;
+//students = students ** 2;
+//let extraStudents = students % 3;
+
+//students += 1 
+//students -= 1
+//students *= 2
+//students /= 2
+//students **= 2;
+//students %= 2; 
+
+//students++;
+//students--;
+
+console.log(students)
+
+let result = 1 + 2 * 3 + 4 + 16;
+
+console.log(result)
