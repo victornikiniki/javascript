@@ -1,3 +1,14 @@
+//let username = window.prompt("What's your username ?");
+
+//console.log(username);
+
+let username; 
+
+document.getElementById("mySubmit").onclick = function(){
+    username = document.getElementById("myText").value;
+    document.getElementById("yourH1").textContent = `Hello ${username}`
+}
+
 //console.log(`Hello`);
 //console.log(`I like pizza!`)
 
@@ -42,7 +53,7 @@ document.getElementById("p3").textContent = `Enrolled: ${isStudent}`; */
 
 /* comments */
 
-let students = 30;
+//let students = 30;
 
 //students = students + 1; 
 //students = students - 1;
@@ -61,8 +72,9 @@ let students = 30;
 //students++;
 //students--;
 
+/* 
 console.log(students)
 
 let result = 1 + 2 * 3 + 4 + 16;
 
-console.log(result)
+console.log(result) */
