@@ -1,3 +1,16 @@
+const PI = 3.14159; 
+let radius;
+let circumference; 
+
+//radius = window.prompt("Enter the radius of a circle: ");
+
+document.getElementById("radius2").onclick = function(){
+    radius = document.getElementById("radius1").value;
+    radius = Number(radius);
+    circumference = 2 * PI * radius; 
+    document.getElementById("radius3").textContent = circumference + "cm";
+}
+
 //let age = window.prompt("how old are you?");
 
 //age = Number(age);
@@ -5,7 +18,7 @@
 
 //console.log(age, typeof age);
 
-let x = "0";
+/* let x = "0";
 let y = "pizza";
 let z = "";
 
@@ -15,7 +28,7 @@ z = Boolean(z);
 
 console.log(x, typeof x);
 console.log(y, typeof y);
-console.log(z, typeof z);
+console.log(z, typeof z); */
 
 
 
