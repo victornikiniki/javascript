@@ -1,4 +1,27 @@
-const PI = 3.14159; 
+let x = 3;
+let y = 2;
+let z = 1;
+
+z = Math.floor(x);
+g = Math.round(x);
+t = Math.ceil(x);
+f = Math.pow(x,y);
+h = Math.trunc(x);
+i = Math.sqrt(x);
+j = Math.log(x);
+k = Math.sin(x);
+l = Math.cos(x);
+m = Math.tan(x);
+n = Math.abs(x);
+o = Math.sign(x);
+
+let max = Math.max(x, y, z);
+let min = Math.min(x, y, z);
+
+console.log(max);
+console.log(min);
+
+/*const PI = 3.14159; 
 let radius;
 let circumference; 
 
