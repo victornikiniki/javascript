@@ -1,13 +1,34 @@
+//let age = window.prompt("how old are you?");
+
+//age = Number(age);
+//age += 1;
+
+//console.log(age, typeof age);
+
+let x = "0";
+let y = "pizza";
+let z = "";
+
+x = Number(x);
+y = String(y);
+z = Boolean(z);
+
+console.log(x, typeof x);
+console.log(y, typeof y);
+console.log(z, typeof z);
+
+
+
 //let username = window.prompt("What's your username ?");
 
 //console.log(username);
 
-let username; 
+/* let username; 
 
 document.getElementById("mySubmit").onclick = function(){
     username = document.getElementById("myText").value;
     document.getElementById("yourH1").textContent = `Hello ${username}`
-}
+} */
 
 //console.log(`Hello`);
 //console.log(`I like pizza!`)
