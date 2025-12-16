@@ -1,4 +1,36 @@
-let day = 6;
+let userName = "dslfja";
+
+console.log(userName.charAt(0));
+console.log(userName.indexOf("t"));
+console.log(userName.lastIndexOf("V"));
+console.log(userName.length);
+console.log(userName.trim());
+console.log(userName.toLowerCase());
+console.log(userName.toUpperCase());
+console.log(userName.repeat(3));
+console.log(userName.trim().startsWith("V"));
+console.log(userName.endsWith("r"));
+console.log(userName.includes("z"));
+console.log(userName.padStart(15, "0"));
+console.log(userName.padEnd(15, "0"));
+
+const result = document.getElementById("result");
+
+mySubmit.onclick = function(){
+    
+    const phoneNumber = document.getElementById("phone").value;
+    let digits = phoneNumber.length
+
+    if (digits == 9){
+        result.textContent = `valid`
+    }
+    else {
+        result.textContent = `invalid`
+    }
+}
+
+
+/* let day = 6;
 
 switch(day){
     case 1: 
