@@ -1,4 +1,24 @@
-const myCheckbox = document.getElementById("myCheckbox");
+let age = 1;
+let message = age >= 18 ? "You are an adult" : "You're a minor";
+
+console.log(message);
+
+let time = 9;
+let greeting = time <= 12 ? "Good morning" : "Good afternoon";
+
+console.log(greeting);
+
+let isStudent = false;
+let truth = isStudent ? "You are a student" : "You are not a student";
+
+console.log(truth);
+
+let amount = 59; 
+let discount = amount >= 50 ? 10: 0;
+
+console.log(`Your total amount is $${amount - amount * (discount/100)}`);
+
+/* const myCheckbox = document.getElementById("myCheckbox");
 const visaBtn = document.getElementById("visaBtn");
 const masterCardBtn = document.getElementById("masterCardBtn");
 const paypalBtn = document.getElementById("paypalBtn");
