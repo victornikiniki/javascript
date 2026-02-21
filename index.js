@@ -1,4 +1,26 @@
- for (let i = 1; i <= 20; i++){
+//Number guessing game - logic 
+
+/* 
+
+const numberResult = 38; 
+
+let guess = Number(window.prompt("Enter your guess"));
+
+while(guess !== numberResult){
+    if (guess > numberResult){
+        guess = Number(window.prompt("Lower, try again"));
+    }
+    else if (guess < numberResult){
+        guess = Number(window.prompt("Higher, try again"));
+    }
+}
+
+console.log("Congratulations!");
+
+ 
+
+
+/* for (let i = 1; i <= 20; i++){
     if (i == 13){
         break; 
     }
