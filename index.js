@@ -1,6 +1,29 @@
+function happyBirthday(username, age){
+    console.log(`happy birthday to you ${username}! you are ${age} years old!`)
+}
+
+happyBirthday("victor", 36);
+happyBirthday("niki", 34);
+
+function add_two(a, b){
+    return a + b;
+}
+
+function isEven(a){
+    return a % 2 === 0 ? true : false; 
+}
+
+function isValidEmail(email){
+    return email.includes("@") ? true : false;
+}
+
+console.log(add_two(3, 4));
+console.log(isEven(3240));
+console.log(isValidEmail("vihbiisnghgmail.com"))
+
 // Number guessing game with random number logic 
 
-const min = 1; 
+/* const min = 1; 
 const max = 100; 
 
 const result = Math.floor(Math.random() * max - min) + min; 
