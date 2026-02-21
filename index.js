@@ -1,4 +1,52 @@
-let fruits = ["apple", "mango", "orange"];
+function combineString(...name){ 
+    return name.join(" ");
+}
+
+namez = combineString("mr", "harvey", "specter")
+console.log(namez);
+
+function raceCars(...cars){ 
+    console.log(...cars);
+}
+
+function getCars(...cars){ 
+    return cars; 
+}
+
+const f1 = "mercedes"; 
+const f2 = "ferrari"; 
+const f3 = "bmw"; 
+const f4 = "audi"
+
+raceCars(f1, f2, f3, f4, f4); 
+const cars = getCars(f1, f2, f3, f4); 
+console.log(cars); 
+
+function sum(...number){ 
+    let result = 0; 
+    for (num of number){ 
+        result += num;
+    }
+
+    return result;
+}
+
+let total = sum(1, 2, 3, 4, 5, 5, 4, 5, 6);
+console.log(total);
+
+function avg(...number){
+    let result = 0; 
+    for(num of number){
+        result += num;
+    }
+
+    return result / number.length; 
+}
+
+let average = avg(1, 2, 3, 4, 5, 6, 5, 6, 3, 7); 
+console.log(average); 
+
+/* let fruits = ["apple", "mango", "orange"];
 let vegetables = ["carrot", "broccoli", "potato"];
 
 let groceries = [...fruits, ...vegetables, "chicken", "eggs", "oil"];
