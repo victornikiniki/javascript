@@ -1,4 +1,30 @@
-const PI = 3.14
+/* Check login credentials */
+
+/* let isLoggedin = false; 
+let username; 
+let password; 
+
+while(!isLoggedin) {
+    username = window.prompt("Enter your username");
+    password = window.prompt("Enter your password");
+
+    if(username === "hello" && password === "hello"){
+        isLoggedin = true;
+        console.log("You are logged in!")
+    }
+    else{
+        console.log("Invalid credentials. Try again.")
+    }
+} 
+
+/* let username = ""
+
+while (username === "" || username == null){
+   username = window.prompt("Your username can't be empty, enter again: ")
+}
+
+console.log(username);
+/* const PI = 3.14
 
 let isPI = PI !== 3.14 ? "That is NOT PI" : "That is PI";
 
