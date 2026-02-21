@@ -1,6 +1,37 @@
-//Number guessing game - logic 
+// Number guessing game with random number logic 
 
-/* 
+const min = 1; 
+const max = 100; 
+
+const result = Math.floor(Math.random() * max - min) + min; 
+
+let guess = Number(window.prompt(`Enter your guess bw ${min} & ${max}`))
+
+let attempt = 0; 
+
+while(guess !== result){
+    if (guess < min || guess > max){
+        guess = Number(window.prompt("Out of range, try again"));
+        attempt++;
+    }
+    else if (guess < result){
+        guess = Number(window.prompt("Higher, try again"));
+        attempt++;
+    }
+    else if (guess > result){
+        guess = Number(window.prompt("Lower, try again"));
+        attempt++;
+    }
+    else{ 
+        guess = Number(window.prompt("Invalid guess, try again"));
+        attempt++;
+    }
+}
+
+window.alert(`Congrats! ${guess} is the correct answer! It took you ${attempt} attempts`)
+
+/* Number guessing game - logic 
+
 
 const numberResult = 38; 
 
