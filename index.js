@@ -1,4 +1,28 @@
-let game = ["god of war", "gta", "silent hill"]; 
+let fruits = ["apple", "mango", "orange"];
+let vegetables = ["carrot", "broccoli", "potato"];
+
+let groceries = [...fruits, ...vegetables, "chicken", "eggs", "oil"];
+
+console.log(groceries);
+
+let newFruits = [...fruits]; //shallow copy
+
+console.log(...fruits);
+console.log(newFruits);
+
+let username = "Victor"
+let letters = [...username].join("-"); 
+
+console.log(letters);
+
+let number = [1, 2, 3, 4, 5]
+let max = Math.max(...number)
+let min = Math.min(...number)
+
+console.log(max);
+console.log(min); 
+
+/* let game = ["god of war", "gta", "silent hill"]; 
 
 game[3] = "genshin impact"; 
 game[3] = "mario"; 
