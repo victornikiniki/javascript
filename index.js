@@ -1,4 +1,42 @@
-function happyBirthday(username, age){
+let game = ["god of war", "gta", "silent hill"]; 
+
+game[3] = "genshin impact"; 
+game[3] = "mario"; 
+
+game.push("genshin impact"); 
+game.pop(); 
+game.unshift("black myth wukong"); 
+game.shift(); 
+
+let num = game.length;
+let index = game.indexOf("spiderman");
+
+console.log(index);
+console.log(num);
+console.log(game);
+console.log(game[0]);
+
+for (i = 0; i < game.length; i++){
+     console.log(game[i]);
+}
+
+for (i = 1; i < game.length; i+=2){
+    console.log(game[i]);
+}
+
+for (i = game.length - 1; i >= 0; i--){ 
+    console.log(game[i]);
+}
+
+game.sort().reverse(); 
+
+for (let g of game){ 
+    console.log(g);
+}
+
+// local scope >> variable scope 
+
+/* function happyBirthday(username, age){
     console.log(`happy birthday to you ${username}! you are ${age} years old!`)
 }
 
