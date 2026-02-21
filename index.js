@@ -1,4 +1,24 @@
+let username = window.prompt("Enter your username: ")
 
+username = username.trim().charAt(0).toUpperCase() + username.slice(1).toLowerCase()
+
+console.log(username);
+
+/* No method chaining
+
+let username = window.prompt("Enter your username: ")
+
+username = username.trim();
+
+let letterInitial = username.charAt(0)
+letterInitial = letterInitial.toUpperCase();
+
+let restLetters = username.slice(1, );
+restLetters = restLetters.toLowerCase();
+
+username = letterInitial + restLetters; 
+
+console.log(username);
 
 /* const email = "victornikiforov@gmail.com"
 
@@ -23,7 +43,7 @@ let lastName = fullName.slice(firstName_index, lastName_index);
 
 console.log(fullName.slice(0, 1)); /* first char */
 
-console.log(firstNamez);
+/* console.log(firstNamez);
 console.log(lastNamez);
 console.log(fullNameProper);
 
