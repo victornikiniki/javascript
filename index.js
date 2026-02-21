@@ -1,4 +1,21 @@
-let username = window.prompt("Enter your username: ")
+const PI = 3.14
+
+let isPI = PI !== 3.14 ? "That is NOT PI" : "That is PI";
+
+console.log(isPI);
+
+/* let temp = 400; 
+
+let tempCondition = temp <= 0 || temp > 30 ? "Weather is BAD" : "Weather is GOOD";
+
+let isSunny = false; 
+
+let isSunnyCondition = !isSunny ? "It is Cloudy" : "It is Sunny";
+
+console.log(tempCondition);
+console.log(isSunnyCondition);
+
+/* let username = window.prompt("Enter your username: ")
 
 username = username.trim().charAt(0).toUpperCase() + username.slice(1).toLowerCase()
 
