@@ -1,4 +1,33 @@
-let userName = "dslfja";
+
+
+/* const email = "victornikiforov@gmail.com"
+
+let userName = email.slice(0, email.indexOf("@"))
+let extension = email.slice(email.indexOf("@") + 1)
+
+console.log(userName);
+console.log(extension);
+
+const fullName = "Victor Nikiforov"
+
+let space = fullName.indexOf(" ")
+let firstNamez = fullName.slice(0, space);
+let lastNamez = fullName.slice(space + 1, );
+
+let fullNameProper = fullName.padEnd(1, "  ")
+let firstName_index = fullNameProper.indexOf(" ");
+let lastName_index = fullNameProper.lastIndexOf(" ")
+
+let firstName = fullName.slice(0, firstName_index);
+let lastName = fullName.slice(firstName_index, lastName_index);
+
+console.log(fullName.slice(0, 1)); /* first char */
+
+console.log(firstNamez);
+console.log(lastNamez);
+console.log(fullNameProper);
+
+/* let userName = "dslfja";
 
 console.log(userName.charAt(0));
 console.log(userName.indexOf("t"));
